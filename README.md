@@ -79,6 +79,7 @@ Logger("File logging disabled!", "warn")
 |:-----------------:|:-----------:|:------------------------------------:|
 | `log_dir`         | `"logs"`    | Directory for log files              |
 | `write_to_file`   | `True`      | Enable file logging                  |
+| `auto_delete_logs`   | `True`      | Enable auto delete                  |
 | `max_log_size`    | `62914560`  | Max log size in bytes (60MB)         |
 | `max_log_age_days`| `30`        | Max age of logs in days              |
 
